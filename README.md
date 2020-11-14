@@ -2,7 +2,7 @@
 
 <h1>1. Membuat Program Kalkulator BMI (Berat Badan Ideal)</h1>
 <h2>Menghitung tinggi dan berat badan</h2>
-<h2>text pada detail akan berubah ketika BMI memenuhi kriteria tertentu</h2>
+<h2>Warna background text pada detail akan berubah ketika BMI memenuhi kriteria tertentu</h2>
 <ul>
 <li>Severe thinnes</li>
 <li>Moderate thinnes</li>

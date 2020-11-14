@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".YourAge">
+
+    <LinearLayout
+        android:id="@+id/layoutBirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="Enter Your Birth Year"/>
+        <EditText
+            android:id="@+id/inputBirthdate"
+            android:inputType="number"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:hint="Enter your Birth Year"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAgeAtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="Age at Year" />
+
+        <EditText
+            android:id="@+id/inputAgeAtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:hint="Enter Desired Year"
+            android:inputType="number"
+            android:paddingHorizontal="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCalculateUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="calculate"/>
+
+
+</LinearLayout>

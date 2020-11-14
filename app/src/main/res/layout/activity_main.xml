@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="SELAMAT DATANG"/>
+    <TextView
+        android:id="@+id/textusermain"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="user"/>
+    <Button
+        android:id="@+id/buttonBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#031FBC"
+        android:text="bmi calculator"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/buttonAge"
+        android:layout_below="@+id/buttonBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#031FBC"
+        android:text="YOUR AGE"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/buttonRecyclerview"
+        android:layout_below="@+id/buttonBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#031FBC"
+        android:text="recycler view"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/buttonListview"
+        android:layout_below="@+id/buttonBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#031FBC"
+        android:text="List view"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</LinearLayout>

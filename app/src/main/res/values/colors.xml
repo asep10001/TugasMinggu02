@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="violet">#9C02B6</color>
+    <color name="red">#FC1504</color>
+    <color name="severe_thinnes">#b90606</color>
+    <color name="moderate_thinnes">#ca5353</color>
+    <color name="mild_thinness">#ffe400</color>
+    <color name="normal">#008137</color>
+    <color name="overweight">#ffe400</color>
+    <color name="obesity1">#ca5353</color>
+    <color name="obesity2">#b90606</color>
+    <color name="obesity3">#8a0101</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>
